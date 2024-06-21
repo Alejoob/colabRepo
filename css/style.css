@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    text-align: center;
+    }
+
+
+h1 {
+    font-family: Rubik initial; 
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    text-decoration: underline;
+           
+}
+
+
+h2 {
+    font-family: rubik initial;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+
+
+
+}
+
+.grid-item {
+    border: 1px solid black;
+    text-align: center;
+
+
+}
+
+@media (max-width: 400px)
+    {
+    header {
+        text-align: center;
+        }
+    
+    
+    h1 {
+        font-family: Rubik initial; 
+        text-align: center;
+        font-size: 70px;
+        font-weight: normal;
+        text-decoration: underline;
+               
+    }
+    
+    h2 {
+        font-family: rubik initial;
+        text-align: center;
+        font-size: 30px;
+    
+    }
+   
+    .grid-container {
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        grid-template-areas:
+        "zona1 zona2"
+        "zona3 zona3";
+        padding: 15px;
+        column-gap: 15px; 
+    
+    
+    
+    }
+    
+    .grid-item {
+        border: 1px solid red;
+        text-align: center;
+
+}
+#hijo1 {
+    grid-area: zona1;
+
+}
+#hijo2{
+    grid-area: zona2;
+}
+#hijo3{
+    grid-area: zona3;
+}
+}
+

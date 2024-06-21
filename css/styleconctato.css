@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    padding: 30px;
+
+}
+ 
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+form input {
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+form textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+
+}
+
+form input::placeholder{
+    color: black;
+}
+
+form textarea::placeholder{
+    color: black;
+}
+
+form #enviar {
+    background-color: rgb(116, 116, 111);
+    font-size: 25px;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+form #borrar {
+    background-color: rgb(116, 116, 111);
+    font-size: 25px;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+nav {
+    background-color: grey;
+    text-align: right;
+    padding: 15px;
+    }
